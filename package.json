@@ -1,14 +1,20 @@
 {
-  "name": "tim-nz.jshint2",
-  "title": "JSHint2",
-  "description": "Adds JSHint support to Brackets. A fork of Raymond Camden's JSHint extension, updated to JSHint 2.13.6. The only JavaScript linter extension for Brackets updated in the last five years.",
-  "homepage": "https://github.com/tim-nz/brackets-jshint2",
-  "version": "2.13.6",
-  "keywords": ["jshint", "lint", "linting", "linter", "javascript", "jslint", "eslint"],
-  "categories": "linting",
-  "author": "Tim-NZ <tim.nz.github@gmail.com> (https://github.com/tim-nz)",
-  "license": "MIT",
-  "engines": {
-    "brackets": ">=0.38.0"
-  }
+	"title": "JSHint2",
+	"name": "tim-nz-jshint2",
+	"description": "Adds JSHint support to Brackets. A fork of Raymond Camden's JSHint extension, updated to JSHint 2.13.6.",
+	"version": "2.13.6",
+	"license": "MIT",
+	"author": "Tim-NZ https://github.com/tim-nz",
+	"homepage": "https://github.com/tim-nz/brackets-jshint2",
+	"engines": {
+		"brackets": ">=0.38.0"
+	},
+	"categories": "linting",
+	"keywords": [
+		"jshint", "lint", "linting", "linter", "javascript", "jslint", "eslint"
+	],
+	"files": [
+		"main.js",
+		"jshint/jshint.js"
+	]
 }
